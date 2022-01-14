@@ -1,0 +1,82 @@
+.headerNav{
+    height: 64px;
+    border-bottom: 1px solid #b6b6b6;
+    width: calc(100vw - 25vw - 80px);
+    /* position: fixed; */
+}
+
+.pageLink{
+    width: 8%;
+    text-align: center;
+    height: 100%;
+    border-right: 1px solid #b6b6b6;
+    background-color: #f7f6f6;
+    cursor: pointer;
+}
+.pageLinkText{
+    margin-bottom: 0;
+    font-size: 12px;
+    font-weight: 700;
+    color: #929292;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+.pageLink span{
+    font-size: 11px;
+    background-color: #606060;
+    border-radius: 10px;
+    color: white;
+    margin: 0 auto;
+    padding: 0 6px;
+}
+
+.pageLink .icon{
+    font-size: 16px;
+    color: #929292;
+    font-weight: 400;
+}
+
+
+
+.active{
+    background-color: white !important;
+}
+
+.active .pageLinkText{
+    color: black !important;
+
+}
+
+.active .icon{
+    font-weight: 600 !important;
+    color: black !important;
+}
+
+.inputField{
+    display: flex;
+    align-items: center;
+    width: 36%;
+}
+.inputDiv{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex:1;
+    margin: 0 10%;
+
+}
+
+.input{
+    border-radius: 0!important;
+}
+
+.search{
+    border: 1px solid #e5e5e5;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.grids{
+    /* margin-top: 64px; */
+
+}

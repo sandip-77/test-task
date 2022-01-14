@@ -11,3 +11,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.cfo{
+  font-size: 12px !important;
+}
+
+.card-text{
+  font-size: 12px !important;
+  font-weight: 600;
+  color: #7b7b7b;
+}
+.bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0;
+}
+.bottom span:nth-child(1){
+    background-color: #EEEEEE;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.bottom span:nth-child(2){
+  font-size: 12px;
+  font-weight: 600;
+}
